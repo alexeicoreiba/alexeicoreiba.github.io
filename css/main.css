@@ -1,0 +1,29 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-size: cover;
+    background-position: center center;
+    background-image: url("../assets/background3.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Gravity-Regular', 'Courier';
+}
+
+.mainTitle {
+    font-family: "Gravity-Regular";
+    font-size: 400%;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}

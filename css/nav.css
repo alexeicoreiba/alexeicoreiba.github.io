@@ -1,0 +1,10 @@
+.navbar,
+.navbar:hover {
+    font-size: 1em;
+    color: white;
+}
+
+.navbar {
+    text-align: center;
+    padding: 2%;
+}

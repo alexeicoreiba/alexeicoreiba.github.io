@@ -1,0 +1,16 @@
+.footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(51, 51, 51);
+    display: block;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer img {
+    height: 50px;
+    width: 50px;
+}
