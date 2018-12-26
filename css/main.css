@@ -5,11 +5,16 @@ body {
     width: 100%;
 }
 
-body {
+.main {
+    height: 100%;
+    width: 100%;
     background-size: cover;
     background-position: center center;
     background-image: url("../assets/background3.jpg");
     background-repeat: no-repeat;
+}
+
+body {
     font-family: 'Gravity-Regular', 'Courier';
 }
 
@@ -19,6 +24,7 @@ body {
     color: white;
     text-align: center;
     margin-top: 10%;
+    position: relative;
 }
 
 a {
@@ -26,4 +32,9 @@ a {
     text-decoration: inherit;
     padding-left: 2.5%;
     padding-right: 2.5%;
+}
+
+#particles-js {
+    height: 50%;
+    background: rgb(102, 95, 95);
 }
