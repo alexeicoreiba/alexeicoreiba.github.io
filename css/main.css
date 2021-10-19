@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
 html,
 body {
     margin: 0;
@@ -10,7 +20,7 @@ body {
     width: 100%;
     background-size: cover;
     background-position: center center;
-    background-image: url("../assets/background3.jpg");
+    background-image: url("../assets/Background/_DSC3658.JPG");
     background-repeat: no-repeat;
 }
 
@@ -20,21 +30,12 @@ body {
 
 .mainTitle {
     font-family: "Gravity-Regular";
-    font-size: 400%;
+    font-size: 60px;
     color: white;
-    text-align: center;
-    margin-top: 10%;
-    position: relative;
-}
-
-a {
-    color: inherit;
-    text-decoration: inherit;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-}
-
-#particles-js {
-    height: 50%;
-    background: rgb(102, 95, 95);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
