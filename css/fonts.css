@@ -7,3 +7,23 @@
     font-family: "Gravity-Book";
     src: url('../fonts/Gravity-Book.otf');
 }
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url('../fonts/PlayfairDisplay-Regular.ttf');
+}
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url('../fonts/PlayfairDisplay-Regular.ttf');
+}
+
+@font-face {
+    font-family: "FaunaOne";
+    src: url('../fonts/FaunaOne-Regular.ttf');
+}
