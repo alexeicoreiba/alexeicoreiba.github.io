@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <link rel="stylesheet" type="text/css" href="./css/nav.css">
     <link rel="stylesheet" type="text/css" href="./css/photo.css">
+    <link rel="stylesheet" type="text/css" href="./css/about.css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 </head>
@@ -13,7 +14,8 @@
 <body>
     <div class="main">
         <div id="navbar"></div>
-        <div class="grid">
+        <div class="avatar">
+            <img src="./assets/images/avatar.JPG" alt="Avatar">
         </div>
     </div>
 
@@ -21,12 +23,9 @@
 
 </html>
 
-<script src="./fetchPics.js"></script>
 <script>
     $(function () {
         $("#navbar").load("navbar.html");
     });
-    var folder = "assets/images/Landscape/";
-    fetchPics(folder);
 
 </script>
