@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/nav.css">
+    <link rel="stylesheet" type="text/css" href="./css/photo.css">
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+
+<body>
+    <div class="main">
+        <div id="navbar"></div>
+        <div class="grid">
+            <!-- <div class="grid-item"><img src="/alexeicoreiba.github.io/assets/Pictures/Landscape/_DSC0243-Edit-5.JPG"></div>
+            <div class="grid-item"><img src="/alexeicoreiba.github.io/assets/Pictures/Landscape/_DSC0487.JPG"></div> -->
+
+        </div>
+    </div>
+
+    <!-- <script type="module" src="app.js"></script> -->
+</body>
+
+</html>
+
+<script>
+    $(function () {
+        $("#navbar").load("navbar.html");
+    });
+    function fetchPics() {
+        var folder = "assets/Pictures/Landscape/";
+
+        return $.ajax({
+            url: folder,
+            success: function (data) {
+                $(data).find("a").attr("href", function (i, val) {
+                    if (val.match(/\.(JPG)$/)) {
+                        console.log('heh');
+                        $(".grid").append("<div class='grid-item'><img src='" + val + "'></div>");
+                    }
+                });
+            }
+        });
+    }
+
+    fetchPics().then(response => {
+        $(document).ready(function () {
+            var grid = document.querySelector('.grid');
+            console.log('rip');
+            var msnry = new Masonry(grid, {
+                // columnWidth: 400,
+                isAnimated:false,
+                itemSelector: '.grid-item'
+            });
+        }
+        );
+    });
+
+</script>

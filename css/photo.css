@@ -1,0 +1,7 @@
+.grid-item {
+    max-width: 25%;
+}
+
+.grid-item img {
+    max-width: 100%;
+}

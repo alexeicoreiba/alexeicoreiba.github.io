@@ -18,6 +18,10 @@ body {
 .main {
     height: 100%;
     width: 100%;
+    background-color: rgb(66, 66, 66);
+}
+
+#home {
     background-size: cover;
     background-position: center center;
     background-image: url("../assets/Background/_DSC3658.JPG");
