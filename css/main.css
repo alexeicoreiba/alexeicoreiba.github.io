@@ -24,12 +24,8 @@ body {
 #home {
     background-size: cover;
     background-position: center center;
-    background-image: url("assets/images/Background/_DSC3658.JPG");
+    background-image: url("../assets/images/Background/_DSC3658.JPG");
     background-repeat: no-repeat;
-}
-
-body {
-    font-family: 'Gravity-Regular', 'Gravity-Book', 'Courier', 'Playfair Display', serif;
 }
 
 .titleDiv {
@@ -65,8 +61,3 @@ body {
     line-height: 30px;
     text-align: center;
 }
-
-/* .subTitleDiv {
-    width: 50%;
-    margin: 0 auto;
-} */
