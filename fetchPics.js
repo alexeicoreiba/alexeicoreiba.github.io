@@ -6,7 +6,7 @@ const count = {
 
 function fetchPics(folder) {
     window.onload = function () {
-        const base = "alexeicoreiba.github.io/assets/images/";
+        const base = "assets/images/";
         const dest = base + folder;
         let pics = "";
         for (let i = count[folder]; i > 0; i--) {
