@@ -1,6 +1,7 @@
 function fetchPics(folder) {
-    $.ajax({
+    return $.ajax({
         url: folder,
+        dataType: "html",
         success: function (data) {
             // console.log("data: " + data);
             $(data).find("a").attr("href", function (i, val) {
