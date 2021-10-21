@@ -1,6 +1,6 @@
 .avatar img {
     vertical-align: middle;
+    height: 1200px;
     width: 800px;
-    height: 800px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
