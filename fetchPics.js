@@ -3,7 +3,7 @@ function fetchPics(folder) {
         url: folder,
         dataType: "html",
         success: function (data) {
-            // console.log("data: " + data);
+            console.log("data: " + data);
             $(data).find("a").attr("href", function (i, val) {
                 console.log("val: " + val);
                 if (val.match(/\.(JPG)$/)) {
