@@ -13,5 +13,9 @@ function fetchPics(folder) {
             pics += `<div class='grid-item'><img src='${dest}/img${i}.JPG'></div>`;
         }
         document.getElementById("grid").innerHTML = pics;
+        document.getElementsByTagName("body").innerHTML += `<div class="copyright">
+        <p>All content and photographs © 2021 Alexei Coreiba Photography
+        </p>
+    </div>`;
     };
 }
