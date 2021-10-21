@@ -1,6 +1,50 @@
-.avatar img {
-    vertical-align: middle;
-    height: 600px;
-    width: 600px;
+.mainBody .avatar {
+    height: 400px;
+    width: 400px;
     border-radius: 50%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 2%;
+}
+
+.mainBody {
+    padding-bottom: 50px;
+}
+
+.mainBody p {
+    font-family: "FaunaOne", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #c7c7c7;
+    font-size: 24px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+}
+
+.mainBody .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.docs {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.diploma {
+    width: auto;
+}
+
+.tkd {
+    width: auto;
+}
+
+.bottompic {
+    width: auto;
 }
