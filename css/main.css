@@ -63,17 +63,19 @@ body {
 }
 
 .copyright {
-    
     width: 100%;
     text-align: center;
-    margin-top: 0px;
     margin: 0;
-    position: fixed;
-    bottom: 5px;
+    bottom: 10px;
+    /* position: fixed; */
 }
 
 .copyright p {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 13px;
     color: white;
+}
+
+#crHome {
+    position: fixed;
 }
