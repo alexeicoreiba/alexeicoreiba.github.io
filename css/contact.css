@@ -26,7 +26,6 @@
 @media (max-width: 1620px) {
     .contactBody {
         width: 70%;
-        margin-top: 50px;
     }
 }
 
@@ -44,7 +43,8 @@
     }
 }
 
-@media screen and (orientation:landscape) {
+@media screen and (orientation:landscape)
+and (max-device-width: 1000px) {
     .contactBody .title {
         font-size: 25px;
     }
