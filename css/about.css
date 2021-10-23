@@ -49,31 +49,3 @@
 .bottompic {
     max-width: 80%;
 }
-
-.mainBody .title {
-    font-family: "FaunaOne", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 56px;
-    margin-left: auto;
-    text-align: center;
-}
-
-.contact {
-    background-color: rgb(59, 59, 59, 0.85);
-    padding: 5px;
-    color:#c7c7c7;
-    text-align: center;
-    margin: 0;
-    position: absolute;
-    top: 300px;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    border-radius: 40px;
-}
-
-#contact {
-    background-size: cover;
-    background-position: center center;
-    background-image: url("../assets/images/supporting/contact-background.JPG");
-    background-repeat: no-repeat;
-}
