@@ -49,3 +49,7 @@
 .bottompic {
     max-width: 80%;
 }
+
+.docs img {
+    padding-bottom: 5px;
+}
