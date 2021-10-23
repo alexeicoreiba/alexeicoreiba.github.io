@@ -1,6 +1,6 @@
 .contactBody .title {
     font-family: "FaunaOne", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 56px;
+    font-size: 40px;
     margin-left: auto;
     text-align: center;
 }
@@ -31,6 +31,6 @@
 .contactBody p {
     font-family: "FaunaOne", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #c7c7c7;
-    font-size: 24px;
+    font-size: 20px;
     
 }
