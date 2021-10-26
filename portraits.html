@@ -6,13 +6,14 @@
     <link rel="stylesheet" type="text/css" href="./css/nav.css">
     <link rel="stylesheet" type="text/css" href="./css/photo.css">
     <script src="./fetchPics.js"></script>
+    <script src="./disableClick.js"></script>
     <script>
         var folder = "portraits";
         fetchPics(folder);
     </script>
 </head>
 <body>
-    <div class="main">
+    <div class="main" oncontextmenu="return false;">
         <div class="topnav" id="myTopnav">
             <a href="/">Home</a>
             <div class="dropdown">
