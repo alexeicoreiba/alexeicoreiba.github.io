@@ -10,12 +10,20 @@ function fetchPics(folder) {
         const dest = base + folder;
         let pics = "";
         for (let i = count[folder]; i > 0; i--) {
-            pics += `<div class='grid-item'><img src='${dest}/img${i}.JPG'></div>`;
+            pics += `<div class='grid-item'><img class="images" src='${dest}/img${i}.JPG'></div>`;
         }
         document.getElementById("grid").innerHTML = pics;
         document.getElementsByTagName("body").innerHTML += `<div class="copyright">
         <p>All content and photographs © 2021 Alexei Coreiba Photography
         </p>
     </div>`;
+        var grid = document.querySelector('.grid');
+        var images = document.querySelectorAll('.images');
+        imagesLoaded(grid, function () {
+            var msnry = new Masonry(grid, {
+                itemSelector: '.grid-item',
+                percentPosition: true
+            });
+        });
     };
 }

@@ -1,9 +1,8 @@
-img {
+/* img {
     width: 100%;
   }
   
   .grid {
-      /*column-count: 4;*/
       column-count: 3;
       column-gap: 5px;
   }
@@ -13,17 +12,23 @@ img {
     margin-bottom: 0px;
     width: 100%;
   }
-  
+  */
+  .grid-item {
+    width: 33.33333333%;
+    margin-bottom: -0.3%;
+  }
+  .grid-item img {
+    width: 100%;
+  }
+    
   @media (max-width: 1659px) {
-    .grid {
-      column-count: 2;
+    .grid-item {
+      width: 49.9999999%;
     }
   }
   
   @media (max-width: 899px) {
-    .grid {
-      column-count: 1;
+    .grid-item {
+      width: 100%;
     }
   }
-
-  
