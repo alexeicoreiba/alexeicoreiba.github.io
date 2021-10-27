@@ -1,6 +1,6 @@
   .grid-item {
     width: 33.3333333%;
-    margin-bottom: -0.7%;
+    margin-bottom: -0.6%;
   }
 
   .grid-item img {
@@ -13,7 +13,7 @@
     }
   }
   
-  @media only screen and (max-width: 820px) {
+  @media only screen and (max-width: 950px) {
     .grid-item {
       width: 100%;
     }
