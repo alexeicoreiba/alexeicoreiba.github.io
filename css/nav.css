@@ -84,3 +84,17 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+@media only screen and (max-device-width: 1080px) {
+  .topnav {
+    font-size: 32px;
+  }
+
+  .dropdown-content {
+    width: 300px;
+  }
+
+  .dropdown .dropbtn {
+    width: 300px;
+  }
+}
