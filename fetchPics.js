@@ -1,7 +1,7 @@
 const count = {
     "landscapes": 19,
-    "portraits": 6,
-    "wildlife": 10
+    "portraits": 9,
+    "wildlife": 9
 };
 
 function fetchPics(folder) {
