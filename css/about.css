@@ -12,8 +12,8 @@
 
 .mainBody {
     padding-bottom: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 13.5%;
+    margin-right: 13.5%;
     margin-top: 2%;
 }
 
@@ -21,15 +21,15 @@
     font-family: "FaunaOne", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #c7c7c7;
     font-size: 24px;
-    
+    margin-bottom: 50px;
 }
 
 .mainBody .btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .docs {
     display: flex;
@@ -50,6 +50,10 @@
     width: 100%;
 }
 
-.docs img {
-    padding-bottom: 5px;
+/* .docs img {
+    margin-bottom: 20px;
+} */
+
+#group {
+    margin-bottom: 50px;
 }
