@@ -1,6 +1,6 @@
 const count = {
     "landscapes": 19,
-    "portraits": 21,
+    "portraits": 30,
     "wildlife": 9
 };
 
